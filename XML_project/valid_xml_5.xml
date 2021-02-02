@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE regions SYSTEM "geo_regions.dtd">
+
+<regions>
+    <region id="6">
+        <name>Българско черноморие</name>
+        <note>Българското Черноморско крайбрежие представлява една ивица от сушата, разположена на запад от черноморския бряг.</note>
+        <situation>
+            <part_of_Bulgaria>източна част</part_of_Bulgaria>
+            <districts>
+                <partial>
+                    <name>Добричка</name>
+                    <name>Варненска</name>
+                    <name>Бургаска</name>
+                </partial>
+            </districts>
+        </situation>
+        <relief>
+            <mountain has="Не"/>
+            <type>предимно равнинен</type>
+            <average_altitude metric_units="м">250</average_altitude>
+        </relief>
+        <borders>
+            <east>
+                <name>Черно море</name>
+                <length metric_units="км">378</length>
+            </east>
+            <west>
+                <name>Дунавска равнина, Старопланинска област,
+                    Краищенско-Средногорска област, Тракийско-Странджанска област</name>
+                <length metric_units="км">436</length>
+            </west>
+            <north>
+                <name>Румъния</name>
+                <length metric_units="км">50</length>
+            </north>
+            <south>
+                <name>Турция</name>
+                <length metric_units="км">30</length>
+            </south>
+        </borders>
+        <area>
+            <percent percentage="%">2,27</percent>
+            <size metric_units="кв.км">31523</size>
+        </area>
+        <subregions>
+            <subregion>
+                <name>Северно крайбрежие</name>
+                <size metric_units="кв.км">954</size>
+                <relief>
+                    <mountain has="Не"/>
+                    <type>равнинен</type>
+                    <average_altitude metric_units="м">71</average_altitude>
+                </relief>
+            </subregion>
+            <subregion>
+                <name>Средно крайбрежие</name>
+                <size metric_units="кв.км">301</size>
+                <relief>
+                    <mountain has="Не"/>
+                    <type>планински</type>
+                    <average_altitude metric_units="м">52</average_altitude>
+                </relief>
+            </subregion>
+            <subregion>
+                <name>Южно крайбрежие</name>
+                <size metric_units="кв.км">1255</size>
+                <relief>
+                    <mountain has="Не"/>
+                    <type>планинско-котловинен</type>
+                    <average_altitude metric_units="м">11</average_altitude>
+                </relief>
+            </subregion>
+        </subregions>
+        <climate>
+            <note>Българското Черноморско крайбрежие попада в Черноморската климатична област.
+                Формирана е под влияние на доминирането на два климатообразуващи фактора – атмосферната циркулация и влиянието на Черно море.
+                Има различно проявление на континенталното влияние  (от северозапад и североизток) и средиземноморското (от югозапад).</note>
+            <type>черноморски</type>
+            <average_temperature unit="Целзий">12,5</average_temperature>
+            <rain_mode>Има различия във валежния режим поради различния тип в северната и южната част. </rain_mode>
+            <wind_type>северозападен през зимата и североизточен през лятото</wind_type>
+        </climate>
+        <soil>
+            <most_common>черноземни</most_common>
+            <other>канелени горски</other>
+        </soil>
+        <flora>Характерна е евксинската растителност, широколистната горска растителност от средноевропейски тип,
+                както и редица растения, водни обитатели.</flora>
+        <fauna>Представен е от степни, средноевропейски и средиземноморски видове обитатели.</fauna>
+    </region>
+</regions>

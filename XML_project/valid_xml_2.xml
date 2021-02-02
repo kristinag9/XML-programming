@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE regions SYSTEM "geo_regions.dtd">
+
+<regions>
+    <region id="3">
+        <name>Краищенско-Средногорска област</name>
+        <note>Разположена е между Старопланинската област (на север) и Рило-Родопската и Тракийско-Странджанската области (на юг).</note>
+        <situation>
+            <part_of_Bulgaria>централната част от територията на България</part_of_Bulgaria>
+            <districts>
+                <partial>
+                    <name>Пернишка</name>
+                    <name>Кюстендилска</name>
+                    <name>Софийска</name>
+                    <name>Пазарджишка</name>
+                    <name>Пловдивска</name>
+                    <name>Старозагорска</name>
+                    <name>Ямболска</name>
+                    <name>Сливенска</name>
+                    <name>Бургаска</name>
+                </partial>
+            </districts>
+        </situation>
+        <relief>
+            <mountain has="Да"/>
+            <type>предимно равнинен</type>
+            <average_altitude metric_units="м">547</average_altitude>
+        </relief>
+        <borders>
+            <east>
+                <name>Черноморска област</name>
+                <length metric_units="км">20</length>
+            </east>
+            <west>
+                <name>Сърбия</name>
+                <length metric_units="км">113</length>
+            </west>
+            <north>
+                <name>Старопланинска област</name>
+                <length metric_units="км">460</length>
+            </north>
+            <south>
+                <name>Тракийско-Странджанска и Рило-Родопска област</name>
+                <length metric_units="км">510</length>
+            </south>
+        </borders>
+        <area>
+            <percent percentage="%">12,72</percent>
+            <size metric_units="кв.км">31523</size>
+        </area>
+        <subregions>
+            <subregion>
+                <name>Задбалкански котловини</name>
+                <note>Това е най-северно разположената (по границата със Старопланинската област) подобласт на Краищенско-Средногорската област на България.</note>
+                <size metric_units="кв.км">2750</size>
+                <relief>
+                    <mountain has="Да"/>
+                    <type>равнино-ридов</type>
+                    <average_altitude metric_units="м">450</average_altitude>
+                </relief>
+            </subregion>
+            <subregion>
+                <name>Средногорие</name>
+                <note>Средногорието е общо събирателно име на поредица от български планини, последователно подредени във верига с посока на простиране запад-изток.
+                    Носи името на Средна гора - най-дългата от тези планини.</note>
+                <size metric_units="кв.км">6750</size>
+                <relief>
+                    <mountain has="Да"/>
+                    <type>планинско-хълмист</type>
+                    <average_altitude metric_units="м">625</average_altitude>
+                </relief>
+            </subregion>
+            <subregion>
+                <name>Краище</name>
+                <note>Краището е средната част на Западна България, разположено по границата със Сърбия.</note>
+                <size metric_units="кв.км">4620</size>
+                <relief>
+                    <mountain has="Да"/>
+                    <type>планинско-котловинен</type>
+                    <average_altitude metric_units="м">565</average_altitude>
+                </relief>
+            </subregion>
+        </subregions>
+        <climate>
+            <note>Поради мозаечният характер на релефа има голямо разнообразие на климата.
+                Налице са проявления на три типа климат. Умерено-континенталният климат е характерен за по-високите котловини
+                и по-голямата част от склоновете на ограждащите ги планини.
+                В по-ниските и в по-южно разположени котловини има преходно-континентален климат.
+                По високите части на планините има проявление планинският климат.</note>
+            <type>преходно-континентален</type>
+            <average_temperature unit="Целзий">8</average_temperature>
+            <rain_mode>Валежите са твърде разнообразни.</rain_mode>
+            <wind_type>северозападен</wind_type>
+        </climate>
+        <soil>
+            <most_common>канелени горски</most_common>
+            <other>смолници</other>
+        </soil>
+        <flora>В Средногорието преобладават средноевропейските растителни видове. В Краището е налице етажираност на растителността.</flora>
+        <fauna>Животинският свят е представен предимно от евросибирски и средноевропейски видове.</fauna>
+    </region>
+</regions>

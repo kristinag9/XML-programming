@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!ELEMENT regions (region*)>
+        <!ELEMENT region (name, note?, situation, relief, borders, area, subregions, climate, soil, flora, fauna)>
+
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT note (#PCDATA)>
+        <!ELEMENT situation (part_of_Bulgaria, note?, districts)>
+        <!ELEMENT part_of_Bulgaria (#PCDATA)>
+        <!ELEMENT districts (full?, partial)>
+        <!ELEMENT full (name+)>
+        <!ELEMENT partial (name+)>
+        <!ELEMENT relief (mountain, type, average_altitude)>
+        <!ELEMENT mountain EMPTY>
+        <!ELEMENT average_altitude (#PCDATA)>
+        <!ELEMENT type (#PCDATA)>
+        <!ELEMENT borders (east, west, north, south)>
+        <!ELEMENT east (name, length)>
+        <!ELEMENT west (name, length)>
+        <!ELEMENT north (name, length)>
+        <!ELEMENT south (name, length)>
+        <!ELEMENT length (#PCDATA)>
+        <!ELEMENT area (percent, size)>
+        <!ELEMENT percent (#PCDATA)>
+        <!ELEMENT size (#PCDATA)>
+        <!ELEMENT subregions (subregion+)>
+        <!ELEMENT subregion (name, note?, size, relief)>
+        <!ELEMENT climate (note?, type, average_temperature, rain_mode, wind_type)>
+        <!ELEMENT average_temperature (#PCDATA)>
+        <!ELEMENT rain_mode (#PCDATA)>
+        <!ELEMENT wind_type (#PCDATA)>
+        <!ELEMENT soil (note?, most_common, other?)>
+        <!ELEMENT most_common (#PCDATA)>
+        <!ELEMENT other (#PCDATA)>
+        <!ELEMENT flora (#PCDATA)>
+        <!ELEMENT fauna (#PCDATA)>
+
+        <!ATTLIST region id CDATA #REQUIRED>
+        <!ATTLIST mountain has (Да|Не) "Не">
+        <!ATTLIST average_altitude metric_units CDATA #REQUIRED>
+        <!ATTLIST length metric_units CDATA #REQUIRED>
+        <!ATTLIST size metric_units CDATA #REQUIRED>
+        <!ATTLIST percent percentage CDATA #REQUIRED>
+        <!ATTLIST average_temperature unit CDATA #REQUIRED>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE regions SYSTEM "geo_regions.dtd">
+
+<regions>
+    <region id="5">
+        <name>Рило-Родопска област</name>
+        <note>Най-южните части на България са включени в една обща природногеографска област,
+            носеща името на двете най-известни планини – най-високата (Рила) и най-голямата по площ (Родопи).</note>
+        <situation>
+            <part_of_Bulgaria>южната част на България</part_of_Bulgaria>
+            <districts>
+                <partial>
+                    <name>Пернишка</name>
+                    <name>Кюстендилска</name>
+                    <name>Софийска</name>
+                    <name>Пазарджишка</name>
+                    <name>Пловдивска</name>
+                    <name>Старозагорска</name>
+                    <name>Хасковска</name>
+                </partial>
+            </districts>
+        </situation>
+        <relief>
+            <mountain has="Да"/>
+            <type>предимно планински</type>
+            <average_altitude metric_units="м">1090</average_altitude>
+        </relief>
+        <borders>
+            <east>
+                <name>Тракийско-Странджанска област</name>
+                <length metric_units="км">30</length>
+            </east>
+            <west>
+                <name>Македония</name>
+                <length metric_units="км">165</length>
+            </west>
+            <north>
+                <name>Краищенско-Средногорска област</name>
+                <length metric_units="км">460</length>
+            </north>
+            <south>
+                <name>Гърция</name>
+                <length metric_units="км">493</length>
+            </south>
+        </borders>
+        <area>
+            <percent percentage="%">18,26</percent>
+            <size metric_units="кв.км">31523</size>
+        </area>
+        <subregions>
+            <subregion>
+                <name>Осоговско-Беласишката планинска редица и долината на река Струма</name>
+                <size metric_units="кв.км">2828</size>
+                <relief>
+                    <mountain has="Да"/>
+                    <type>планински</type>
+                    <average_altitude metric_units="м">806</average_altitude>
+                </relief>
+            </subregion>
+            <subregion>
+                <name>Рила, Пирин и долината на река Места</name>
+                <size metric_units="кв.км">3510</size>
+                <relief>
+                    <mountain has="Да"/>
+                    <type>планински</type>
+                    <average_altitude metric_units="м">1260</average_altitude>
+                </relief>
+            </subregion>
+            <subregion>
+                <name>Родопи</name>
+                <size metric_units="кв.км">13929</size>
+                <relief>
+                    <mountain has="Да"/>
+                    <type>планински</type>
+                    <average_altitude metric_units="м">1200</average_altitude>
+                </relief>
+            </subregion>
+        </subregions>
+        <climate>
+            <note>Променя се от преходно-континентален към континентално-средиземноморски,
+                а във височина се видоизменя и придобива чертите на планинския климат.</note>
+            <type>преходно-континентален, континентално-средиземноморски и планински</type>
+            <average_temperature unit="Целзий">8</average_temperature>
+            <rain_mode>Разпределението на валежите по сезони е резултат от средиземноморското влияние</rain_mode>
+            <wind_type>западен и северозападен</wind_type>
+        </climate>
+        <soil>
+            <most_common>кафяви горски</most_common>
+            <other>планинско-ливадни</other>
+        </soil>
+        <flora>Поради голямото разнообразие в надморската височина и близостта на средиземноморската област растителността е богата и разнообразна.</flora>
+        <fauna>Животинският свят е формиран от представители на средноевропейските и на средиземноморските  животински видове.</fauna>
+    </region>
+</regions>

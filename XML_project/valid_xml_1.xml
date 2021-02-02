@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE regions SYSTEM "geo_regions.dtd">
+
+<regions>
+    <region id="1">
+        <name>Дунавска равнина</name>
+        <note>Дунавската равнина е най-голямата природногеографска област на България.</note>
+        <situation>
+            <part_of_Bulgaria>най-северната част от територията на България</part_of_Bulgaria>
+            <note>Обхваща земите непосредствено на юг от река Дунав и между долното течение на река Тимок (на запад) и Черно море (на изток).</note>
+            <districts>
+                <full>
+                    <name>Плевенска</name>
+                    <name>Русенска</name>
+                    <name>Разградска</name>
+                    <name>Силистра</name>
+                    <name>Добричка</name>
+                </full>
+                <partial>
+                    <name>Видинска</name>
+                    <name>Монтанска</name>
+                    <name>Врачанска</name>
+                    <name>Ловешка</name>
+                    <name>Великотърновска</name>
+                    <name>Търговишка</name>
+                    <name>Шуменска</name>
+                    <name>Варненска</name>
+                </partial>
+            </districts>
+        </situation>
+        <relief>
+            <mountain has="Не"/>
+            <type>низинен</type>
+            <average_altitude metric_units="м">178</average_altitude>
+        </relief>
+        <borders>
+            <east>
+                <name>Черноморска област</name>
+                <length metric_units="км">120</length>
+            </east>
+            <west>
+                <name>Сърбия</name>
+                <length metric_units="км">110</length>
+            </west>
+            <north>
+                <name>Румъния</name>
+                <length metric_units="км">610</length>
+            </north>
+            <south>
+                <name>Предбалкан</name>
+                <length metric_units="км">460</length>
+            </south>
+        </borders>
+        <area>
+            <percent percentage="%">28,42</percent>
+            <size metric_units="кв.км">31523</size>
+        </area>
+        <subregions>
+            <subregion>
+                <name>Западна Дунавска равнина</name>
+                <note>Тя е най-ниската част от Дунавската равнина.</note>
+                <size metric_units="кв.км">7235</size>
+                <relief>
+                    <mountain has="Не"/>
+                    <type>равнинно-низинен</type>
+                    <average_altitude metric_units="м">130</average_altitude>
+                </relief>
+            </subregion>
+            <subregion>
+                <name>Средна Дунавска равнина</name>
+                <note>Простира се между реките Вит и Янтра.</note>
+                <size metric_units="кв.км">4535</size>
+                <relief>
+                    <mountain has="Не"/>
+                    <type>низинно-равнинен</type>
+                    <average_altitude metric_units="м">138</average_altitude>
+                </relief>
+            </subregion>
+            <subregion>
+                <name>Източна Дунавска равнина</name>
+                <note>Заема земите от река Янтра до Черно море. Тя е най-голямата по площ</note>
+                <size metric_units="кв.км">19753</size>
+                <relief>
+                    <mountain has="Не"/>
+                    <type>низинно-равнинен</type>
+                    <average_altitude metric_units="м">204</average_altitude>
+                </relief>
+            </subregion>
+        </subregions>
+        <climate>
+            <note>Разположена е в умерения климатичен пояс.</note>
+            <type>умерено-континентален</type>
+            <average_temperature unit="Целзий">11,5</average_temperature>
+            <rain_mode>умереноконтинентален</rain_mode>
+            <wind_type>западен и северозападен</wind_type>
+        </climate>
+        <soil>
+            <note>Дунавската равнина е природногеографската област с най-големи площи на плодородни, предимно черноземни, почви.</note>
+            <most_common>черноземни</most_common>
+            <other>сиви горски</other>
+        </soil>
+        <flora>Предимно растителни видове, характерни за средноевропейската и за степната растителногеографска област.</flora>
+        <fauna>Характерни са евросибирските и европейските видове.</fauna>
+    </region>
+</regions>

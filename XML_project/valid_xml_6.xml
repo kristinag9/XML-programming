@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE regions SYSTEM "geo_regions.dtd">
+
+<regions>
+    <region id="2">
+        <name>Старопланинска област</name>
+        <situation>
+            <part_of_Bulgaria>територията между Дунавската равнина и Краищенско-Средногорската природногеографска област и между границата със Сърбия и Черно море</part_of_Bulgaria>
+            <districts>
+                <partial>
+                    <name>Видинска</name>
+                    <name>Монтана</name>
+                    <name>Врачанска</name>
+                    <name>Софийска</name>
+                    <name>Ловешка</name>
+                    <name>Пловдивска</name>
+                    <name>Габровска</name>
+                    <name>Старозагорска</name>
+                    <name>Великотърновска</name>
+                    <name>Сливенска</name>
+                    <name>Търговишка</name>
+                    <name>Шуменска</name>
+                    <name>Бургаска</name>
+                    <name>Варненска</name>
+                </partial>
+            </districts>
+        </situation>
+        <relief>
+            <mountain has="Да"/>
+            <type>планински</type>
+            <average_altitude metric_units="м">520</average_altitude>
+        </relief>
+        <borders>
+            <east>
+                <name>Черноморска област</name>
+                <length metric_units="км">50</length>
+            </east>
+            <west>
+                <name>Сърбия</name>
+                <length metric_units="км">118</length>
+            </west>
+            <north>
+                <name>Дунавска равнина</name>
+                <length metric_units="км">530</length>
+            </north>
+            <south>
+                <name>Краищенско-Средногорска област</name>
+                <length metric_units="км">460</length>
+            </south>
+        </borders>
+        <area>
+            <percent percentage="%">23,41</percent>
+            <size metric_units="кв.км">31523</size>
+        </area>
+        <subregions>
+            <subregion>
+                <name>Предбалкан</name>
+                <size metric_units="кв.км">14390</size>
+                <relief>
+                    <mountain has="Да"></mountain>
+                    <type>хълмисто-ридов</type>
+                    <average_altitude metric_units="м">364</average_altitude>
+                </relief>
+            </subregion>
+            <subregion>
+                <name>Главна Старопланинска верига</name>
+                <size metric_units="кв.км">11596</size>
+                <relief>
+                    <mountain has="Да"></mountain>
+                    <type>планински</type>
+                    <average_altitude metric_units="м">675</average_altitude>
+                </relief>
+            </subregion>
+        </subregions>
+        <climate>
+            <type>влажен умерено-континентален</type>
+            <average_temperature unit="Целзий">10,5</average_temperature>
+            <rain_mode>умереноконтинентален</rain_mode>
+            <wind_type>западен и северозападен</wind_type>
+        </climate>
+        <soil>
+            <most_common>сиви горски</most_common>
+        </soil>
+        <flora>Характерните растителни видове са представители на средноевропейската широколистна листопадна растителност.</flora>
+        <fauna>Преобладават средноевропейски и евросибирски видове животни.</fauna>
+    </region>
+</regions>

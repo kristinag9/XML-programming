@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE regions SYSTEM "geo_regions.dtd">
+
+<regions>
+    <region id="4">
+        <name>Тракийско-Странджанска област</name>
+        <note>Обхваща земите между Родопите, Средногорието и на изток до Българското Черноморско крайбрежие.</note>
+        <situation>
+            <part_of_Bulgaria>югоизточна част от България</part_of_Bulgaria>
+            <districts>
+                <partial>
+                    <name>Пазарджишка</name>
+                    <name>Пловдивска</name>
+                    <name>Старозагорска</name>
+                    <name>Ямболска</name>
+                    <name>Сливенска</name>
+                    <name>Бургаска</name>
+                </partial>
+            </districts>
+        </situation>
+        <relief>
+            <mountain has="Да"/>
+            <type>низинен и равнинно-хълмист</type>
+            <average_altitude metric_units="м">315</average_altitude>
+        </relief>
+        <borders>
+            <east>
+                <name>Черноморска област</name>
+                <length metric_units="км">188</length>
+            </east>
+            <west>
+                <name>Краищенско-Средногорска област</name>
+                <length metric_units="км">20</length>
+            </west>
+            <north>
+                <name>Същинска Средна гора</name>
+                <length metric_units="км">180</length>
+            </north>
+            <south>
+                <name>от Родопите до границата с Гърция и Турция</name>
+                <length metric_units="км">429</length>
+            </south>
+        </borders>
+        <area>
+            <percent percentage="%">14,95</percent>
+            <size metric_units="кв.км">31523</size>
+        </area>
+        <subregions>
+            <subregion>
+                <name>Горнотракийска низина</name>
+                <note>Тя е най-добре оформената и най-голямата по площ низина в България.</note>
+                <size metric_units="кв.км">6030</size>
+                <relief>
+                    <mountain has="Да"/>
+                    <type>предимно низинен</type>
+                    <average_altitude metric_units="м">168</average_altitude>
+                </relief>
+            </subregion>
+            <subregion>
+                <name>Тунджанска подобласт</name>
+                <note>Обхваща земите около долината на река Тунджа в средното и течение. Разположена е източно от Горнотракийската низина.</note>
+                <size metric_units="кв.км">5250</size>
+                <relief>
+                    <mountain has="Да"/>
+                    <type>преобладават възвишения и полета</type>
+                    <average_altitude metric_units="м">256</average_altitude>
+                </relief>
+            </subregion>
+            <subregion>
+                <name>Сакарско-Странджанска подобласт</name>
+                <note>Обхваща Сакар, Дервентските възвишения и планината Странджа.</note>
+                <size metric_units="кв.км">5308</size>
+                <relief>
+                    <mountain has="Да"/>
+                    <type>планински</type>
+                    <average_altitude metric_units="м">520</average_altitude>
+                </relief>
+            </subregion>
+        </subregions>
+        <climate>
+            <note>Тракийско–Странджанската област се намира на границата между умерения и субтропичния климатичен пояс.</note>
+            <type>преходно-континентален</type>
+            <average_temperature unit="Целзий">12,25</average_temperature>
+            <rain_mode>Валежите се увеличават в посока от запад на изток.</rain_mode>
+            <wind_type>западен и северозападен</wind_type>
+        </climate>
+        <soil>
+            <most_common>канелени горски</most_common>
+            <other>алувиално-ливадни покрай реките</other>
+        </soil>
+        <flora>Характерни са растителни видове от средноевропейската и средиземноморската растително-географска област,
+            различни видове реликтни растения и ендемити.</flora>
+        <fauna>Тук съжителстват евросибирски, средиземноморски и степни видове.</fauna>
+    </region>
+</regions>
